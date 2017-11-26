@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * Producer Example in Apache Kafka
- * @author www.tutorialkart.com
+ *
  */
 public class SampleProducer extends Thread {
     private final KafkaProducer<Integer, String> producer;
